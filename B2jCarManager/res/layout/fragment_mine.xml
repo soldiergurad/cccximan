@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff5f7f7"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="185.0dip"
+        android:background="@android:color/white"
+        android:minHeight="185.0dip"
+        android:paddingTop="10.0dip" >
+
+        <ImageView
+            android:id="@+id/user_portrait_iv"
+            android:layout_width="135.0dip"
+            android:layout_height="135.0dip"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/eg_icon_avatar_default3x"
+            android:contentDescription="@string/app_name"
+            android:padding="1.0dip" />
+
+        <TextView
+            android:id="@+id/user_id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_portrait_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10.0dip"
+            android:text="点击头像登录"
+            android:textColor="#ffff0000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/user_sex_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/user_id_tv"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="3.0dip"
+            android:layout_toRightOf="@id/user_id_tv"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+   <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout
+        android:id="@+id/users_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@android:color/white" >
+        
+        <TextView 
+            android:paddingLeft="10dp"
+             android:id="@+id/user_info_txt" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:gravity="center_vertical"
+             android:text="消息中心" 
+             android:drawablePadding="5.0dip" 
+             android:drawableLeft="@drawable/eg_icon_my_normal" 
+             android:layout_centerVertical="true" />
+           
+               
+      <ImageButton  android:background="@android:color/transparent"
+           android:clickable="false" android:layout_width="32.0dip"
+           android:layout_height="fill_parent" 
+           android:src="@drawable/eg_icon_arrow3x" 
+           android:layout_alignParentRight="true" 
+           android:contentDescription="@string/app_name" />  
+    </RelativeLayout>
+    <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout
+        android:id="@+id/users_about_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@android:color/white" >
+        
+        <TextView 
+            android:paddingLeft="10dp"
+             android:id="@+id/user_about_txt" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:gravity="center_vertical"
+             android:text="消息中心" 
+             android:drawablePadding="5.0dip" 
+             android:drawableLeft="@drawable/eg_icon_my_normal" 
+             android:layout_centerVertical="true" />
+           
+               
+      <ImageButton  android:background="@android:color/transparent"
+           android:clickable="false" android:layout_width="32.0dip"
+           android:layout_height="fill_parent" 
+           android:src="@drawable/eg_icon_arrow3x" 
+           android:layout_alignParentRight="true" 
+           android:contentDescription="@string/app_name" />  
+    </RelativeLayout>
+     <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout
+        android:id="@+id/users_suggest_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@android:color/white" >
+        
+        <TextView 
+            android:paddingLeft="10dp"
+             android:id="@+id/users_suggest_txt" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:gravity="center_vertical"
+             android:text="消息中心" 
+             android:drawablePadding="5.0dip" 
+             android:drawableLeft="@drawable/eg_icon_my_normal" 
+             android:layout_centerVertical="true" />
+                  
+      <ImageButton  android:background="@android:color/transparent"
+           android:clickable="false" android:layout_width="32.0dip"
+           android:layout_height="fill_parent" 
+           android:src="@drawable/eg_icon_arrow3x" 
+           android:layout_alignParentRight="true" 
+           android:contentDescription="@string/app_name" />  
+        
+    </RelativeLayout>
+     <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout
+        android:id="@+id/users_update_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:background="@android:color/white" >
+        
+        <TextView 
+            android:paddingLeft="10dp"
+             android:id="@+id/user_update_txt" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content" 
+             android:gravity="center_vertical"
+             android:text="消息中心" 
+             android:drawablePadding="5.0dip" 
+             android:drawableLeft="@drawable/eg_icon_my_normal" 
+             android:layout_centerVertical="true" />
+           
+      <ImageButton  android:background="@android:color/transparent"
+           android:clickable="false" android:layout_width="32.0dip"
+           android:layout_height="fill_parent" 
+           android:src="@drawable/eg_icon_arrow3x" 
+           android:layout_alignParentRight="true" 
+           android:contentDescription="@string/app_name" />  
+    </RelativeLayout>
+
+</LinearLayout>

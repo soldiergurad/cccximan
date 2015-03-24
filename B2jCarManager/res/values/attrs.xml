@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="buer_icon" format="reference"></attr>
+    <attr name="buer_color" format="color"></attr>
+    <attr name="buer_text" format="string"></attr>
+    <attr name="buer_text_size" format="dimension"></attr>
+
+    <declare-styleable name="ChangeColorIcon">
+        <attr name="buer_icon"></attr>
+        <attr name="buer_color"></attr>
+        <attr name="buer_text"></attr>
+        <attr name="buer_text_size"></attr>
+    </declare-styleable>
+
+</resources>

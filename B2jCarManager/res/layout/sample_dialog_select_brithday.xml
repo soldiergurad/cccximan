@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/eg_img_box" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <TextView android:textColor="@color/cmy_blue" android:id="@+id/brithday_tv_cancel" android:background="@drawable/eg_img_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textColor="@color/cmy_blue" android:id="@+id/brithday_tv_confirm" android:background="@drawable/eg_img_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <DatePicker android:id="@+id/brith_datePicker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+</LinearLayout>

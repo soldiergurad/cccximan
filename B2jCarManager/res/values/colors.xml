@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cmy_blue">#ff0066ff</color>
+    
+    <color name="font_orange">#fff95f19</color>
+    <color name="font_light">#ff666666</color>
+    
+     <color name="cmy_bg">#ffeeeeee</color>
+     
+     
+     <color name="font_dark">#ffffffff</color>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cmy_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+ >
+    <FrameLayout android:id="@+id/main_content_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/img_bg_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ImageView android:background="@drawable/img_list_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:baselineAligned="false">
+            <LinearLayout android:gravity="center" android:id="@+id/main_home_layout" android:focusable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textColor="@color/main_selected_color" android:text="@string/main_home" android:drawableTop="@drawable/menu_home" android:drawablePadding="3.0dip" style="@style/text_little" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@+id/main_order_layout" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textColor="@color/main_selected_color" android:text="@string/main_order" android:drawableTop="@drawable/menu_order" android:drawablePadding="3.0dip" style="@style/text_little" />
+            </LinearLayout>
+             <LinearLayout android:gravity="center" android:id="@+id/main_mine_layout" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textColor="@color/main_selected_color" android:text="@string/main_mine" android:drawableTop="@drawable/menu_mine" android:drawablePadding="3.0dip" style="@style/text_little" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
